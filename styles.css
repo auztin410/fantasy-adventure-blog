@@ -1,0 +1,58 @@
+/* styles.css */
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f4f1e5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #4a3d2e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .blog-post {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #4a3d2e;
+    max-width: 700px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .date {
+    color: #888;
+    font-size: 0.9em;
+  }
+  
+  .stats ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .stats li {
+    background: #efe0c7;
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #b89673;
+    border-radius: 5px;
+  }
+  
+  button {
+    background: #4a3d2e;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
