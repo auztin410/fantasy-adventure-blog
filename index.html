@@ -3,42 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adventure Blog</title>
+  <title>Blog Post | Adventurer's Journal</title>
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kings&family=Macondo&display=swap" rel="stylesheet">
+  <!-- Google Fonts Ends -->
+
 </head>
-<body>
+<body class="macondo-regular">
+
+  <!-- Header and Navigation Section -->
   <header>
     <h1>Adventurer's Journal</h1>
-    <p>A chronicle of journeys, battles, and intrigue.</p>
+    <p>A chronicle of journeys, battles, and treasures.</p>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
-    <article class="blog-post">
-      <h2>The Quest for Goldscarred Steel</h2>
-      <p class="date">October 27, 2024</p>
-      
-      <section class="content">
-        <p>Our heroes delved deep into Fusdern’s mines, risking life and limb to face the fierce Xorn. The treasure? Goldscarred Steel.</p>
-      </section>
-
-      <section class="stats">
-        <h3>Stats</h3>
+  <!-- Blog Content Section -->
+  <main class="blog-content">
+    <article>
+      <h2 class="kings-regular">Title of the Adventure</h2>
+      <p class="date">October 28, 2024</p>
+      <div class="content">
+        <p>Hm... another night camping within these tunnels, deep within the Earth... The sounds of nothing, days worth of stone in every direction, it can make a man mad you know?</p>
+        
+      </div>
+      <section class="inventory">
+        <h3>Inventory</h3>
         <ul>
-          <li><strong>Strength:</strong> 15</li>
-          <li><strong>Agility:</strong> 12</li>
-          <li><strong>Endurance:</strong> 14</li>
+          <li>Healing Potions (x2)</li>
+          <li>Silver Dagger</li>
+          <li>Map of Fusdern Mines</li>
+          <li>Enchanted Compass</li>
+          <li>Pouch of Gold Coins</li>
         </ul>
-      </section>
-      
-      <section class="comments">
-        <h3>Comments</h3>
-        <input type="text" id="commentInput" placeholder="Add a comment">
-        <button onclick="addComment()">Submit</button>
-        <ul id="commentList"></ul>
       </section>
     </article>
   </main>
 
-  <script src="script.js"></script>
+  <script src="scripts.js"></script>
 </body>
 </html>
