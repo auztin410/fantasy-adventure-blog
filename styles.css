@@ -108,3 +108,7 @@ p a {
   border-left: 2px solid #ffcc99;
   opacity: 0.9;
 }
+
+.centered {
+  text-align: center;
+}
