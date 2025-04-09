@@ -95,6 +95,16 @@ p a {
   font-weight: bold;
   font-style: italic;
   margin-top: 1.5rem;
-  color: whitesmoke;
+  color: #eaeaea;
   text-shadow: 0 0 4px rgba(255, 255, 255, 0.2);
+}
+
+.subtitle {
+  font-size: 1.05rem;
+  color: #cfcfcf;
+  font-style: italic;
+  margin: 0.5rem 0 1.5rem 0;
+  padding-left: 0.5rem;
+  border-left: 2px solid #ffcc99;
+  opacity: 0.9;
 }
