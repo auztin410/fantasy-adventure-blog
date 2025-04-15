@@ -20,14 +20,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <!-- <header>
     <h1>Stories From The Cloud</h1>
     <nav>
       <a href="shortstories.html">Short Stories</a>
       <a href="/poems.html">Poems</a>
       <a href="/concepts.html">Concepts</a>
     </nav>
-  </header>
+  </header> -->
+
+  <div id="site-header"></div>
+
+<script>
+  fetch("/nav.html")
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById("site-header").innerHTML = html;
+    });
+</script>
 
   <main class="content">
     <section class="work">
