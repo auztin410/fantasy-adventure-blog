@@ -20,15 +20,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div id="site-header"></div>
-
-<script>
-  fetch("/nav.html")
-    .then(res => res.text())
-    .then(html => {
-      document.getElementById("site-header").innerHTML = html;
-    });
-</script>
+  <header>
+    <h1>Tales From The Cloud</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/shortstories.html">Short Stories</a>
+      <a href="/poems.html">Poems</a>
+      <a href="/concepts.html">Concepts</a>
+    </nav>
+  </header>
 
   <main class="content">
     <section class="work">
