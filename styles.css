@@ -185,3 +185,70 @@ p a {
   box-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
   opacity: 1;
 }
+
+
+/* Styles for Test page */
+
+/* Overall Character Block */
+.character-block {
+  display: flex;
+  align-items: flex-start;
+  background-color: #f9f9f9;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 1.5em;
+  margin: 2em 0;
+  font-family: 'Georgia', serif;
+  color: #222;
+}
+.character-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  flex-grow: 1;
+}
+
+.character-dialogue {
+  background-color: #e8ecf4;
+  font-style: italic;
+  border-radius: 6px;
+  padding: 1em 1.5em;
+  text-align: center;
+  font-size: 1.1em;
+  color: #222;
+}
+
+.character-action {
+  background-color: #fdf7f0;
+  border-left: 6px solid #cc5500; /* Distinct bold left border */
+  padding: 1em 1.5em;
+  margin-top: 0.5em;
+  font-family: 'Georgia', serif;
+  font-size: 1.05em;
+  color: #333;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.character-sidebar {
+  margin-right: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.health-bar {
+  width: 100px;
+  height: 10px;
+  background-color: #ddd;
+  border: 1px solid #999;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.health-fill {
+  height: 100%;
+  width: 0%;
+  background-color: #4caf50;
+  transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
